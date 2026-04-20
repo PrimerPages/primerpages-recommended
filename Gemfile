@@ -7,7 +7,7 @@ gem 'jekyll', '4.4.1'
 gem 'jekyll-theme-profile'
 group :jekyll_plugins do
     gem 'jekyll-category-pages'
-    gem 'jekyll-github-metadata', '= 2.13.0'
+    gem 'jekyll-github-metadata'
     gem 'jekyll-octicons'
     gem 'jekyll-paginate'
     gem 'jekyll-relative-links'
