@@ -1,3 +1,10 @@
+run-name: >-
+  ${{
+    github.event_name == 'repository_dispatch' &&
+    format('Dispatch rebuild {0}', github.event.client_payload.dispatch_id) ||
+    github.workflow
+  }}
+
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
