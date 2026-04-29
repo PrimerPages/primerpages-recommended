@@ -1,8 +1,7 @@
 theme: jekyll-theme-profile
-title: Jekyll Theme Profile
+title: PrimerPages Site
 description: Theme built with jekyll-theme-profile
 image: /assets/img/social-preview.png
-repository: "PrimerPages/primerpages-recommended"
 
 permalink: pretty
 
@@ -13,14 +12,14 @@ collections:
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       type: "posts"
     values:
       layout: "post"
       image: /assets/img/default.png # The default image used for social and posts.
       toc: true
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       type: "docs"
     values:
       layout: "docs"
@@ -28,14 +27,19 @@ defaults:
       permalink: /docs/:path:output_ext
       toc: true
 
-# ########### Theme settings ###############
-# The style of the website
+
+########################## THEME SETTINGS ##########################
+
+##########################
+# Style settings 
+##########################
+# # The style of the website
 # style: appbar # One of "stacked", "sidebar", "topbar", "appbar"
-# The user/project avatar.  If not set the avatar of the project owner will be used.
+# # The user/project avatar.  If not set the avatar of the project owner will be used.
 # user_image: /assets/img/user-image.jpg
-# The site logo/favicon
+# # The site logo/favicon
 # favicon: /img/assets/appbar-icon.png
-# The themes to use for dark and light
+# # The themes to use for dark and light
 # dark_theme: dark_dimmed
 # light_theme: light
 # # Optional custom background image and overlay
@@ -57,10 +61,9 @@ repo_info: true # Show the information for the source of this project
 user_metadata: true # Show the metadata associated with the user
 profile_link: true # Show a link to the github profile for the user
 edit_url: "https://www.github.com/PrimerPages/primerpages-dev/edit/main/templates/primerpages-recommended/"
-
-
 ##########################
-# # Social media settings
+# Social media settings
+##########################
 # icon_color: "#959da5" # The color of the social media icons on the site
 # social_media: # Your social media accounts
   # behance: your_username
@@ -86,41 +89,24 @@ edit_url: "https://www.github.com/PrimerPages/primerpages-dev/edit/main/template
   # youtube: your_username
   # x: your_username
 
-####################
+##########################
 # Navigation links
+##########################
 nav:
   - name: Blog
     url: /blog
   - name: Documentation
     url: /docs
 
-####################
-# List of links for link cards
-links:
-  - name: Example Linktree page
-    url: /linktree
-    octicon: link
-  - name: Example Profile page
-    url: /profile
-    octicon: person
-  - name: Example Repositories page
-    url: /repositories
-    octicon: repo
-  - name: Example landing page
-    url: /landing
-    octicon: rocket
-  - name: Example blog index
-    url: /blog
-    octicon: comment
-  - name: Example category index
-    url: /category
-    octicon: stack
-  - name: Example tag index
-    url: /tags
-    octicon: tag
+##########################
+# Repository link
+##########################
+repository: "PrimerPages/primerpages-minimal"
 
-###################
+##########################
 # Repositories to show on home page
+# Requires jekyll-github-metadata plugin and a github repository to be set for the site.
+##########################
 repositories:
   sort_by: stars
   # sort_by options:
@@ -133,33 +119,43 @@ repositories:
     repositories:
       # - list of repositories to exclude
 
-########################
+##########################
 # Post settings
+##########################
 related_by: "tags or categories"
 
-# ########### Plugin settings ###############
+########################## PLUGIN SETTINGS ##########################
 plugins:
+  - jekyll-paginate
   - jekyll-github-metadata
   - jekyll-octicons
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-toc
   - jemoji
-####################
+
+##########################
 # jekyll-paginate settings
+##########################
 paginate: 7 # The number of posts to show per page of pagination of blog posts
 paginate_path: "/blog/page:num"
-###################
+
+##########################
 # jekyll-tagging settings
 # Include `gem jekyll-tagging` in your gemfile
+##########################
 tag_page_layout: tags
 tag_page_dir: tags
-####################
+
+##########################
 # jekyll-category-pages settings
+##########################
 category_path: category
 category_layout: category_layout.html
-######################
+
+##########################
 # jekyll-relative-links settings
+##########################
 relative_links:
   enabled:     true
   collections: true
