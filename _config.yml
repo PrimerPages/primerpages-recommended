@@ -56,6 +56,8 @@ defaults:
 repo_info: true # Show the information for the source of this project
 user_metadata: true # Show the metadata associated with the user
 profile_link: true # Show a link to the github profile for the user
+edit_url: "https://www.github.com/PrimerPages/primerpages-dev/edit/main/templates/primerpages-recommended/"
+
 
 ##########################
 # # Social media settings
