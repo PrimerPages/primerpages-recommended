@@ -126,9 +126,10 @@ related_by: "tags or categories"
 
 ########################## PLUGIN SETTINGS ##########################
 plugins:
-  - jekyll-paginate
+  - jekyll-gfm-admonitions
   - jekyll-github-metadata
   - jekyll-octicons
+  - jekyll-paginate
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-toc
