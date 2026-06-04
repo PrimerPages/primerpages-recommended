@@ -39,8 +39,8 @@ defaults:
 # user_image: /assets/img/user-image.jpg
 # # The site logo/favicon
 # favicon: /img/assets/appbar-icon.png
-# # The appbar brand icon. Use "none", "favicon", or an Octicon name like "mark-github".
-# appbar_icon: favicon
+# # The header brand icon. Use "none", "favicon", or an Octicon name like "mark-github".
+# header_icon: favicon
 # # The themes to use for dark and light
 # dark_theme: dark_dimmed
 # light_theme: light
