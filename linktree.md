@@ -10,7 +10,4 @@ links:
   - name: Ruby Gems
     url: https://rubygems.org/profiles/althack
     octicon: ruby
-  - name: Python packages
-    url: https://pypi.org/user/athackst/
-    thumbnail: https://pypi.org/static/images/logo-small.8998e9d1.svg
 ---
