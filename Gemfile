@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '4.4.1'
-gem 'jekyll-theme-profile'
+gem 'jekyll-theme-primerpages'
 
 group :jekyll_plugins do
     gem 'jekyll-category-pages'

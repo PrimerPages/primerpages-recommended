@@ -16,7 +16,7 @@ This template is maintained in `primerpages-dev`.
 
 ## What This Template Is For
 
-- `theme: jekyll-theme-profile` in `_config.yml`
+- `theme: jekyll-theme-primerpages` in `_config.yml`
 - Recommended extras enabled through the template config/plugin setup
 - A starter site structure (`index`, `blog`, `tags`, `category`, docs, and sample posts)
 - A Pages deployment workflow at `.github/workflows/site.yml`
