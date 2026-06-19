@@ -108,7 +108,7 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
 
       - name: Test with htmlproofer
-        uses: athackst/htmlproofer-action@v2.0.0
+        uses: athackst/htmlproofer-action@v2.0.1
 
       - name: Save cache
         if: always()
