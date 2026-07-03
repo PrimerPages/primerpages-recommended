@@ -107,7 +107,7 @@ repository: "PrimerPages/primerpages-minimal"
 
 ##########################
 # Repositories to show on home page
-# Requires jekyll-github-metadata plugin and a github repository to be set for the site.
+# Requires jekyll-github-metadata plugin and a GitHub repository to be set for the site.
 ##########################
 repositories:
   sort_by: stars
@@ -129,7 +129,6 @@ related_by: "tags or categories"
 ########################## PLUGIN SETTINGS ##########################
 plugins:
   - jekyll-gfm-admonitions
-  - jekyll-github-metadata
   - jekyll-octicons
   - jekyll-paginate
   - jekyll-relative-links
