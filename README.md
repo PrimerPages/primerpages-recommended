@@ -20,6 +20,7 @@ This template is maintained in `primerpages-dev`.
 - Recommended extras enabled through the template config/plugin setup
 - A starter site structure (`index`, `blog`, `tags`, `category`, docs, and sample posts)
 - A Pages deployment workflow at `.github/workflows/site.yml`
+- Pagefind site search enabled by default, with a shared search dialog
 
 ## Quick Setup
 
@@ -38,6 +39,7 @@ This template is maintained in `primerpages-dev`.
 
 - On pushes to `main` (or manual dispatch), the workflow:
   - builds the site with Jekyll,
+  - generates the Pagefind index in `_site/pagefind`,
   - uploads `_site` as a Pages artifact,
   - deploys with `actions/deploy-pages`.
 
@@ -45,8 +47,10 @@ This template is maintained in `primerpages-dev`.
 
 - Visit `https://<owner>.github.io/<repo>/` for project pages.
 - Confirm home, docs, blog, tag, and category pages render.
-- Open `/debug` to inspect active Jekyll/theme info.
+- Click the search button or press `/`, then search for text from a page or post.
 
 ## Reference
+
+- PrimerPages Docs: [Search with Pagefind](https://www.primerpages.com/docs/)
 
 - GitHub Docs: [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)

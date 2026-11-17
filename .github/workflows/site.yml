@@ -55,6 +55,9 @@ jobs:
             --baseurl "${{ steps.pages.outputs.base_path }}" \
             --destination ./_site
 
+      - name: Build search index
+        run: npx pagefind --site ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
 

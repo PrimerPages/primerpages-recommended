@@ -92,6 +92,13 @@ edit_url: "https://www.github.com/PrimerPages/primerpages-dev/edit/main/template
   # x: your_username
 
 ##########################
+# Header search
+##########################
+search:
+  enabled: true
+  max_results: 8
+
+##########################
 # Navigation links
 ##########################
 nav:
